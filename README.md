@@ -4,6 +4,7 @@
 **ID:** 26227
 **Faculty:** Information Technology  
 **Date:** August 2025
+email: muyobokeemmnauel04@gmail.com
 
 
 ![Healthcare Dashboard](https://via.placeholder.com/800x400?text=Hospital+Readmissions+Dashboard)  
@@ -32,4 +33,11 @@ df['Date'] = pd.to_datetime(df['Date'])
 df.fillna(df.mean(), inplace=True)
 df.drop(columns=['Footnote'], inplace=True)
 🤖 Machine Learning Model
+Model Architecture:
+graph TD
+    A[Raw Data] --> B[Data Cleaning]                 ![Uploading image.png…]()
+
+    B --> C[Feature Engineering]
+    C --> D[Random Forest Model]
+    D --> E[Predictions]
 
